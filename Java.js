@@ -9,7 +9,8 @@ form.addEventListener( 'submit', function(event){
         var l=length.value;
         var w=width.value;
         var area=l*w;
-        result.innerText="Below is the worked solution of the area of your \n dimension you have prodided please go through it." + "\n\nFormular\n"+ "Area= Length x Width\n\n" +"Values\n" +"Length=" + l + "\nWidth=" + w  + "\n\nSubstuting\n" + "Area=" + l + " x " + w + " \nArea=" + area;
+        result.innerText="Below is the worked solution of the area of your \n dimensions you have provided. Please go through it." + 
+        "\n\nFORMULAR\n"+ "Area= Length x Width\n\n" +"VALUES\n" +"Length= " + l +"m" + "\nWidth= " + w + "m"  + "\n\nSUBSTUTING\n" + "Area= " + l + " x " + w + " \nArea= " + area + "m²";
         event.preventDefault();
     
 
