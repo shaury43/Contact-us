@@ -12,6 +12,14 @@ input calculated{
 }
 
 p{
-    color: rgb(241, 12, 12);
+    color: rgb(16, 12, 241);
     box-sizing: border-box;
 }
+button{
+    background-color: greenyellow;
+}
+
+#Calculated{
+    background-color:greenyellow;
+}
+
