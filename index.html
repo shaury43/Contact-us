@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript</title>
    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="Javascript/Java.js"> </script>
 </head>
 <body>
     <nav>
-        <h1>HOME WIFI</h1>
+        <h1>HOME WIFI LTD</h1>
     </nav>
-    <form action="https://script.google.com/macros/s/AKfycbw-UF2uzQi4zFQsoqSObLZF8LSuCPRT5QL91ePw0XGVyUP8VBgdex9yYlt0ZWjG2a1e/exec" method="post">
+    <form action="https://script.google.com/macros/s/AKfycbw-UF2uzQi4zFQsoqSObLZF8LSuCPRT5QL91ePw0XGVyUP8VBgdex9yYlt0ZWjG2a1e/exec" id="payment" method="post">
         <h2>Buy Token.</h2>
          <label>Choose Your area:</label><br>
-        <select name="area" id="" required>
+        <select name="area" id="area" required>
             <option value=""></option>
-            <option value="">Mutsengo</option>
-            <option value="">Magorofani</option>
-            <option value="">Dangote</option>
-            <option value="">Laliga</option>
+            <option value="Mutsengo" >Mutsengo.</option>
+            <option value="Magorofani">Magorofani.</option>
+            <option value="Dangote">Dangote.</option>
+            <option value="">Laliga.</option>
         </select><br><br> 
-        <label >Enter M-pesa Number</label><br>
-        <input type="tel" name="phone number" placeholder="e.g. 0712345678" minlength="10" maxlength="10"  required><br><br>
+        <label >Enter M-pesa Number:</label><br>
+        <input type="tel" name="phone number" id="phone"  placeholder="e.g. 0712345678" minlength="10" maxlength="10"  required><br><br>
          <label>Choose Your Token:</label><br>
-        <select name="token" id="" required>
+        <select name="token" id="token" required>
             <option value=""></option>
-            <option value="10">Ksh 10 valid for 1 hr unlimited</option>
-            <option value="20">Ksh 20 valid for 12 hrs unlimited</option>
-            <option value="30">Ksh 30 valid for 24 hrs unlimited</option>
-            <option value="699">Ksh 599 valid for 1 month unlimited</option>
+            <optgroup label="Choose a plan that fits your needs.">
+            <option value="10">Ksh 10 valid for 1 hr unlimited.</option>
+            <option value="20">Ksh 20 valid for 12 hrs unlimited.</option>
+            <option value="30">Ksh 30 valid for 24 hrs unlimited.</option>
+            <option value="699">Ksh 599 valid for 1 month unlimited.</option>
+             </optgroup>
         </select><br><br>  
          <input type="submit" value="BUY" id="submit"><br><br> 
     </form>
+   
 
     <form action="https://script.google.com/macros/s/AKfycbzD2GWtzc1w9KaOJFfMACg-j7GLfEXuuGOWi_iexynHB3nTC8yKrDGVxOT4fmCu8ceH/exec" method="post">
         <h2>Contact us in case you have an issue.</h2>
@@ -39,11 +43,13 @@
         <input type="text" name="name" placeholder="Your Name?" required><br><br>
         <label>Email:</label><br>
         <input type="email" name="email" placeholder="Your Email?" required><br><br>
-        
+        <label>Type your message:</label><br>
         <textarea placeholder="Your Message?" name="message" rows="6" required></textarea><br>
-        <input type="submit" value="Submit" id="submit">
-    </form>
-    <script type="text/javascript" src="Javascript/Java.js"> </script> 
+        <input type="submit" value="SEND" id="submit">
+    </form><br><br><br>
+    
+    <h5>We are providing Fastest, Strongest and Cheapest Internet.</h5><br>
+     
 
 
 
