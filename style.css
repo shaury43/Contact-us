@@ -9,7 +9,7 @@ input #calculated{
 }
 h1{
     text-align: center;
-    color: red;
+    color: white;
     
 }
 
@@ -37,7 +37,7 @@ p{
 }
 
 nav{
-    background-color: bisque;
+    background-color: rgb(16, 126, 16);
     width: 100%;
     left: 0;
     top: 0;
